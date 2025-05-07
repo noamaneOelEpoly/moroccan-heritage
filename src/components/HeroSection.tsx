@@ -22,7 +22,7 @@ const HeroSection = ({
 }: HeroSectionProps) => {
   const [scrollY, setScrollY] = useState(0);
   const [heroImage, setHeroImage] = useState<string>(
-    "https://images.unsplash.com/photo-1539020140153-e8c237112e53?w=1200&q=80",
+    "https://images.unsplash.com/photo-1539020140153-e8c237112e53?w=1200&q=80&auto=format",
   );
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
